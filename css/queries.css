@@ -103,7 +103,8 @@
     padding-left: 3.2rem;
   }
   .hero-1-icon {
-    left: 27%;
+    top: 22%;
+    left: 2%;
   }
   .about-appie-img {
     justify-self: center;
@@ -114,17 +115,20 @@
 /* *******************/
 @media (max-width: 58em) {
   .header {
-    padding: 3.2rem 4.8rem;
+    padding: 3.2rem;
   }
   .he-img {
-    width: 40rem;
+    width: 40%;
+  }
+  .hero-section {
+    padding-top: 10rem;
   }
   .hero-img {
     width: 100%;
     height: auto;
-    justify-self: center;
+
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
   }
   .grid--2-hero-cols {
     grid-template-columns: 1fr;
@@ -184,55 +188,59 @@
   .ul-header:visited {
     font-size: 3.4rem;
   }
-  .hero-content {
-    text-align: center;
-  }
+
   .hero-text {
-    margin-bottom: 6.4rem;
-  }
-  .hero-input-div {
-    padding: 0 12.8rem;
-    justify-content: center;
     margin-bottom: 3.2rem;
   }
+  .hero-input {
+    padding: 1.6rem 1.6rem;
+  }
+
   .about-appie-img img {
     width: 35rem;
   }
-  .appie-cust {
-    justify-content: center;
-  }
-  .hero-head {
-    padding: 0 12.8rem;
-  }
+
   .about-appie-img {
-    justify-self: center;
+    justify-content: end;
   }
   .about-appie img {
     width: 40%;
     margin: 0 auto;
+  }
+  .video-appie {
+    margin-left: -1rem;
   }
 }
 /* ****************** */
 /*Below [ 700px / 16px ]  responsive phones */
 /* *******************/
 @media (max-width: 43em) {
+  html {
+    font-size: 61.5%;
+  }
   .grid--2--cols,
   .grid--3--cols,
   .grid--4--cols {
     grid-template-columns: 1fr;
   }
+  .hero-head {
+    font-size: 3.6rem;
+  }
+  .hero-img {
+    display: flex;
+    justify-content: end;
+  }
   .he-img {
-    width: 30rem;
+    width: 20rem;
   }
   .hero-content {
-    padding: 2.4rem 3.2rem;
+    padding: 0rem 1.2rem;
     text-align: start;
   }
   .hero-text {
-    margin-bottom: 6.4rem;
+    font-size: 1.8rem;
   }
   .hero-input-div {
-    padding: 0rem;
     justify-content: flex-start;
     margin-bottom: 3.2rem;
   }
@@ -240,13 +248,15 @@
     text-align: center;
     width: 40rem;
   }
+  .how-btn {
+    padding-top: 2.4rem;
+    display: block;
+    margin: 0 3.2rem;
+  }
   .appie-cust {
     justify-content: flex-start;
   }
 
-  .hero-head {
-    padding: 0 0rem;
-  }
   .marketing-img {
     display: flex;
     justify-content: center;
@@ -269,6 +279,15 @@
   .adventage-img img {
     width: 40%;
     margin: 0 auto;
+  }
+  .downloading {
+    display: flex;
+    flex-direction: column;
+  }
+  .download-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
   .about-appie {
     display: flex;
@@ -316,6 +335,9 @@
   .footer-download {
     flex-direction: column;
   }
+  .adventage-img img {
+    width: 32rem;
+  }
   .about-appie img {
     margin: auto 9.6rem;
   }
@@ -329,6 +351,10 @@
   .hero-1-icon {
     left: 4%;
   }
+  .about-appie-img img {
+    width: 25rem;
+  }
+
   /* ****************** */
   /*Below [ 544px / 16px ]  responsive phones */
   /* *******************/
@@ -343,6 +369,13 @@
     .sponsers {
       flex-flow: wrap;
     }
+
+    .box {
+      margin-left: -3rem;
+      width: 30rem;
+      padding: 3.2rem;
+      justify-self: center;
+    }
     .sponsers-flex-gap {
       gap: 2.6rem;
     }
@@ -353,6 +386,7 @@
     .video-icons {
       right: 29%;
     }
+
     .footer {
       display: flex;
       justify-content: center;
