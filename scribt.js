@@ -33,7 +33,7 @@ allLinks.forEach(function (link) {
     }
 
     // Close mobile naviagtion
-    if (link.classList.contains("header-links"))
+    if (link.classList.contains("header-link"))
       headerEl.classList.toggle("open-header");
   });
 });
