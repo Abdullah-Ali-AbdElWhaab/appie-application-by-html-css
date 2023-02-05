@@ -173,10 +173,10 @@
     visibility: visible;
     transform: translateX(0);
   }
-  .open-header .btn-header-nav [name="menu-outline"] {
+  .open-header .icon-header-nav[name="menu-outline"] {
     display: none;
   }
-  .open-header .btn-header-nav [name="close-outline"] {
+  .open-header .icon-header-nav[name="close-outline"] {
     display: block;
   }
   .ul-header {
@@ -184,9 +184,10 @@
     align-items: center;
     gap: 4.8rem;
   }
-  .ul-header:link,
-  .ul-header:visited {
-    font-size: 3.4rem;
+  .btn-started,
+  .header-link:link,
+  .header-link:visited {
+    font-size: 2rem;
   }
 
   .hero-text {
