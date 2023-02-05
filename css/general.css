@@ -115,6 +115,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.fixed-btn:hover {
+  background-color: #e03131;
+}
+
 .fixed-btn ion-icon {
   width: 2.4rem;
   height: 2.4rem;
