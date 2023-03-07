@@ -689,10 +689,12 @@
 /* ********************** */
 /*  testimonials-SECTION  */
 /* ********************** */
-.testimonial-section {
-}
+
 .testimonials {
-  background-color: #2c6ff4;
+  /* if img not like you add this color */
+  /* background-color: #2c6ff4; */
+  background-image: url(../img/testimonial-bg-2.91b99839.jpg);
+  background-size: contain;
   padding: 9.6rem 12.8rem;
   display: flex;
   flex-direction: row;
